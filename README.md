@@ -7,3 +7,4 @@ Fonts:
 Gems:
 
 Plugins:
+PageScroll Plugin - https://github.com/peachananr/onepage-scroll

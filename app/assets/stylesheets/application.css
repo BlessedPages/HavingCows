@@ -13,3 +13,7 @@
  *= require_tree .
  *= require_self
  */
+
+
+ /*One-Page Scroll Plugin Called */
+$('.main').onepage_scroll();
