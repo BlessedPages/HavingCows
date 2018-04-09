@@ -1,3 +1,17 @@
 // Place all the styles related to the simple_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+/******************
+***INDEX SECTION***
+******************/
+
+/***section one***/
+.one {
+  background-image: asset-url('having_cows_band_all_members.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-attachment: scroll;
+}

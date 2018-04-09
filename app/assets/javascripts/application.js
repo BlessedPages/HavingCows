@@ -12,5 +12,13 @@
 //
 //= require rails-ujs
 //= require turbolinks
-//= require jquery3
+//= require jquery
 //= require_tree .
+
+window.onload = function() {
+console.log("page loaded successfully");
+ /*One-Page Scroll Plugin Called */
+$('.main').onepage_scroll();
+
+
+}
