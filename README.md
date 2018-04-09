@@ -1,24 +1,9 @@
-# README
+Website for Bloemfontein Rock Band Having Cows
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Colors:
 
-Things you may want to cover:
+Fonts:
 
-* Ruby version
+Gems:
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Plugins:
