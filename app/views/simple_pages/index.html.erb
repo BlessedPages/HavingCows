@@ -1,3 +1,30 @@
-<section class="index-section one">
-  
-</section>
+<div>
+  <%= image_tag 'having_cows_band_all_members.jpg', width: '100%', class: 'img-responsive' %>  
+</div>
+
+<div class="container">
+  <div class="row"> <!-- row 1 -->
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+      <div class="iframe">
+        <!-- iframe for the deezer app to be inserted here -->        
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+      <div class="buttons">
+        <!-- Itunes Button -->
+        <%= link_to image_tag('logo-itunes.png', role: 'button', alt: 'having-cows-itunes', class: 'img-responsive'), root_path %>
+        <!-- Spotify Button -->
+        <%= link_to image_tag('logo-spotify.png', role: 'button', alt: 'having-cows-spotify', class: 'img-responsive'), root_path %>
+        <!-- Deezer Button -->
+        <%= link_to image_tag('logo-deezer.png', role: 'button', alt: 'having-cows-deezer', class: 'img-responsive'), root_path %>   
+        <!-- Youtube Button -->
+        <%= link_to image_tag('logo-youtube.png', role: 'button', alt: 'having-cows-youtube', class: 'img-responsive'), root_path %>
+        <!-- Soundcloud Button -->
+        <%= link_to image_tag('logo-soundcloud', role: 'button', alt: 'having-cows-soundcloud', class: 'img-responsive'), root_path %>
+        <!-- Reverbnation Button -->
+        <%= link_to image_tag('logo-reverbnation', role: 'button', alt: 'having-cows-reverbnation', class: 'img-responsive'), root_path %>
+        
+      </div> <!-- end buttons -->      
+    </div> <!-- end 2nd col -->
+  </div> <!-- end row 1 -->
+</div> <!-- end container -->

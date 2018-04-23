@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
-  <%= render 'layouts/head' %>
-  <body>
+<%= render 'layouts/head' %>
+
+<body>
+
     <%= render 'layouts/nav' %>
-    <div class="main"> <!-- div required for single page scrolling (must be underneath the body tag) -->
+
     <%= yield %>
-    </div>
+    
     <%= render 'layouts/footer' %>
-  </body>
+
+</body>
 </html>

@@ -19,9 +19,9 @@
  ***************/
 
  body {
-  padding-top: 50px; /* ensures the content is not hidden by the navbar */
-}
-
+  padding-top: 63px; /*ensures no content is hidden by the navbar*/
+ }
+ 
  /***********
  ***NAVBAR***
  ***********/
@@ -34,21 +34,19 @@
 .nav li a {
   text-align: center;  /* center allign text to display better on mobile */
   margin: auto;  /* puts links in middle when viewed on mobile */
+  font-size: 1.5em;
+  padding-top: 20px;
+  font-family: serif;
 }
 
 @media only screen and (min-width: 760px) {  /* only when the display is bigger than 760px does this apply */
  .nav {
-  padding-left: 25%;  /* sets the lings in the middel of the navbar */
+  margin-left: 20%;  /* sets the links in the middel of the navbar */
   }
 
   .navbar-brand {
-     padding-left: 20%;   /*padding to space the brand image away from the edge of the screen*/ 
+     margin-left: 20%;   /*padding to space the brand image away from the edge of the screen*/ 
   }
-}
-
-.navbar-brand {
-  position: relative;  /*position the brand image relative to apply positioning*/ 
-  top: -4px;  /*position the brand image to the top to even padding top and bottom */
 }
 
 /***********

@@ -3,15 +3,30 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
-/******************
-***INDEX SECTION***
-******************/
+/************************
+***** INDEX SECTION *****
+************************/
 
-/***section one***/
-.one {
-  background-image: asset-url('having_cows_band_all_members.jpg');
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
+// body background here because css does not work with 'asset_url'
+
+ body {
+  background-image: asset_url("body-background.jpg");
+  background-repeat: repeat;
   background-attachment: scroll;
+  background-position: top;
+ }
+
+/*************
+***section2***
+*************/
+
+.iframe {
+  width: 100%;
+  height: 600px;
+  background-color: red;
+}
+
+.buttons a {
+  display: inline-block;
+  margin: 30px 50px 30px 70px;
 }

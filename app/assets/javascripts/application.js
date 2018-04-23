@@ -16,9 +16,5 @@
 //= require_tree .
 
 window.onload = function() {
-console.log("page loaded successfully");
- /*One-Page Scroll Plugin Called */
-$('.main').onepage_scroll();
-
-
+  console.log("page loaded successfully");
 }
